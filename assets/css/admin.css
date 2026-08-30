@@ -1,0 +1,77 @@
+.se-event-meta__row {
+    display: flex;
+    gap: 16px;
+    margin-bottom: 14px;
+}
+
+.se-event-meta__field {
+    flex: 1;
+}
+
+.se-event-meta__field--full {
+    flex: 1 1 100%;
+}
+
+.se-event-meta__field label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 6px;
+}
+
+.se-event-meta__field input,
+.se-event-meta__field select,
+.se-event-meta__field textarea {
+    width: 100%;
+}
+
+.se-event-meta__field textarea {
+    min-height: 90px;
+}
+
+.se-event-meta .required {
+    color: #b32d2e;
+}
+
+.se-event-pricing input[type="text"] {
+    width: 100%;
+}
+
+.column-se_event_date {
+    width: 140px;
+}
+
+.column-se_event_location {
+    width: 160px;
+}
+
+.column-se_event_price,
+.column-se_event_status {
+    width: 100px;
+}
+
+.se-status {
+    font-weight: 600;
+}
+
+.se-status--free,
+.se-status--upcoming {
+    color: #1f7a46;
+}
+
+.se-status--today {
+    color: #0073aa;
+}
+
+.se-status--soon {
+    color: #9a6700;
+}
+
+.se-status--past {
+    color: #888;
+}
+
+@media (max-width: 782px) {
+    .se-event-meta__row {
+        flex-direction: column;
+    }
+}
