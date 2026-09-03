@@ -32,6 +32,7 @@ require_once SIMPLE_EVENTS_PLUGIN_DIR . 'includes/class-routing.php';
 require_once SIMPLE_EVENTS_PLUGIN_DIR . 'includes/class-seo.php';
 require_once SIMPLE_EVENTS_PLUGIN_DIR . 'includes/class-template-loader.php';
 require_once SIMPLE_EVENTS_PLUGIN_DIR . 'includes/class-shortcodes.php';
+require_once SIMPLE_EVENTS_PLUGIN_DIR . 'includes/class-blocks.php';
 
 /**
  * Bootstrap plugin classes.
@@ -48,6 +49,7 @@ function simple_events_init() {
     new Simple_Events_SEO();
     new Simple_Events_Template_Loader();
     new Simple_Events_Shortcodes();
+    new Simple_Events_Blocks();
 }
 add_action('plugins_loaded', 'simple_events_init');
 

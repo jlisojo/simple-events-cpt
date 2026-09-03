@@ -15,6 +15,7 @@ Built as a generic, self-contained plugin suitable for any WordPress site. No pa
 - **Admin list columns** for date, location, price, and upcoming / today / past status
 - **Archive + single templates** with theme overrides
 - **Schema.org** Event and ItemList JSON-LD
+- **Gutenberg Event Grid Block** for inserting events directly in the Block Editor with live preview and custom inspector controls
 - **`[simple_events]` shortcode** for upcoming event cards
 - **Settings page** for archive slug, events per page, currency, and date format
 - **Optional CPTP compatibility** if Custom Post Type Permalinks is active
@@ -42,6 +43,10 @@ Built as a generic, self-contained plugin suitable for any WordPress site. No pa
 5. Publish
 
 Single events live at `/{slug}/{event-name}/`. The default slug is `events`.
+
+### Gutenberg Block
+
+Add the **Event Grid** block in the WordPress Block Editor (`simple-events-cpt/event-grid`). You can configure grid title, number of events, toggle the "View All" button, and set custom button labels directly in the block sidebar inspector with a real-time preview.
 
 ### Shortcode
 

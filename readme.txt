@@ -22,6 +22,7 @@ Simple Events CPT is a flexible, self-contained events management plugin for Wor
 - **Admin List Columns** showing date, location, price, and event status
 - **Archive & Single Templates** with theme override support
 - **Schema.org Markup** for search engine visibility
+- **Gutenberg Event Grid Block** for inserting event grids visually in the Block Editor
 - **Event Shortcode** for displaying upcoming events on any page
 - **Settings Page** to customize the archive slug, events per page, currency, and date format
 - **REST API Support** for programmatic access
