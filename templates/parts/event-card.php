@@ -28,9 +28,9 @@ if ($is_past) {
     <a class="se-card__link" href="<?php echo esc_url(get_permalink($post_id)); ?>">
         <div class="se-card__image">
             <?php if ($is_past) : ?>
-                <span class="se-badge se-badge--past"><?php esc_html_e('Past', 'simple-events'); ?></span>
+                <span class="se-badge se-badge--past"><?php esc_html_e('Past', 'simple-events-cpt'); ?></span>
             <?php elseif ($event['is_free']) : ?>
-                <span class="se-badge se-badge--free"><?php esc_html_e('Free', 'simple-events'); ?></span>
+                <span class="se-badge se-badge--free"><?php esc_html_e('Free', 'simple-events-cpt'); ?></span>
             <?php endif; ?>
 
             <?php if (has_post_thumbnail($post_id)) : ?>
@@ -61,11 +61,11 @@ if ($is_past) {
 
     <div class="se-card__actions">
         <a class="se-button se-button--secondary" href="<?php echo esc_url(get_permalink($post_id)); ?>">
-            <?php echo $is_past ? esc_html__('View Details', 'simple-events') : esc_html__('Learn More', 'simple-events'); ?>
+            <?php echo $is_past ? esc_html__('View Details', 'simple-events-cpt') : esc_html__('Learn More', 'simple-events-cpt'); ?>
         </a>
         <?php if ($show_register && !$is_past && !empty($event['registration_link'])) : ?>
             <a class="se-button se-button--primary" href="<?php echo esc_url($event['registration_link']); ?>" target="_blank" rel="noopener noreferrer">
-                <?php esc_html_e('Register', 'simple-events'); ?>
+                <?php esc_html_e('Register', 'simple-events-cpt'); ?>
             </a>
         <?php endif; ?>
     </div>

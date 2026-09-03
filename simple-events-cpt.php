@@ -7,7 +7,7 @@
  * Requires PHP: 7.4
  * Author: Josh
  * Author URI: https://github.com/jlisojo
- * Text Domain: simple-events
+ * Text Domain: simple-events-cpt
  * Domain Path: /languages
  * License: GPL-2.0-or-later
  * License URI: https://www.gnu.org/licenses/gpl-2.0.html
@@ -37,7 +37,7 @@ require_once SIMPLE_EVENTS_PLUGIN_DIR . 'includes/class-shortcodes.php';
  * Bootstrap plugin classes.
  */
 function simple_events_init() {
-    load_plugin_textdomain('simple-events', false, dirname(plugin_basename(SIMPLE_EVENTS_FILE)) . '/languages');
+    load_plugin_textdomain('simple-events-cpt', false, dirname(plugin_basename(SIMPLE_EVENTS_FILE)) . '/languages');
 
     Simple_Events_Settings::instance();
     new Simple_Events_Post_Type();

@@ -30,10 +30,10 @@ class Simple_Events_Admin_Columns {
             $new_columns[$key] = $title;
 
             if ($key === 'title') {
-                $new_columns['se_event_date']     = __('Event Date', 'simple-events');
-                $new_columns['se_event_location'] = __('Location', 'simple-events');
-                $new_columns['se_event_price']    = __('Price', 'simple-events');
-                $new_columns['se_event_status']   = __('Status', 'simple-events');
+                $new_columns['se_event_date']     = __('Event Date', 'simple-events-cpt');
+                $new_columns['se_event_location'] = __('Location', 'simple-events-cpt');
+                $new_columns['se_event_price']    = __('Price', 'simple-events-cpt');
+                $new_columns['se_event_status']   = __('Status', 'simple-events-cpt');
             }
         }
 
@@ -74,7 +74,7 @@ class Simple_Events_Admin_Columns {
 
             case 'se_event_price':
                 if ($event['is_free']) {
-                    echo '<span class="se-status se-status--free">' . esc_html__('FREE', 'simple-events') . '</span>';
+                    echo '<span class="se-status se-status--free">' . esc_html__('FREE', 'simple-events-cpt') . '</span>';
                 } elseif ($event['price']) {
                     echo esc_html(Simple_Events_Helpers::format_price($event['price']));
                 } else {
@@ -94,9 +94,9 @@ class Simple_Events_Admin_Columns {
                 $today     = strtotime(current_time('Y-m-d'));
 
                 if ($event_day < $today) {
-                    echo '<span class="se-status se-status--past">' . esc_html__('Past', 'simple-events') . '</span>';
+                    echo '<span class="se-status se-status--past">' . esc_html__('Past', 'simple-events-cpt') . '</span>';
                 } elseif ($event_day === $today) {
-                    echo '<span class="se-status se-status--today">' . esc_html__('Today', 'simple-events') . '</span>';
+                    echo '<span class="se-status se-status--today">' . esc_html__('Today', 'simple-events-cpt') . '</span>';
                 } else {
                     $days_until = (int) ceil(($event_day - $today) / DAY_IN_SECONDS);
                     if ($days_until <= 7) {
@@ -104,12 +104,12 @@ class Simple_Events_Admin_Columns {
                             '<span class="se-status se-status--soon">%s</span>',
                             esc_html(sprintf(
                                 /* translators: %d: number of days */
-                                _n('In %d day', 'In %d days', $days_until, 'simple-events'),
+                                _n('In %d day', 'In %d days', $days_until, 'simple-events-cpt'),
                                 $days_until
                             ))
                         );
                     } else {
-                        echo '<span class="se-status se-status--upcoming">' . esc_html__('Upcoming', 'simple-events') . '</span>';
+                        echo '<span class="se-status se-status--upcoming">' . esc_html__('Upcoming', 'simple-events-cpt') . '</span>';
                     }
                 }
                 break;

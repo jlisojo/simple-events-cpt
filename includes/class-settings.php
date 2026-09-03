@@ -83,40 +83,40 @@ class Simple_Events_Settings {
 
         add_settings_section(
             'simple_events_general',
-            __('General', 'simple-events'),
+            __('General', 'simple-events-cpt'),
             '__return_false',
-            'simple-events'
+            'simple-events-cpt'
         );
 
         add_settings_field(
             'slug',
-            __('Archive slug', 'simple-events'),
+            __('Archive slug', 'simple-events-cpt'),
             array($this, 'render_slug_field'),
-            'simple-events',
+            'simple-events-cpt',
             'simple_events_general'
         );
 
         add_settings_field(
             'per_page',
-            __('Events per page', 'simple-events'),
+            __('Events per page', 'simple-events-cpt'),
             array($this, 'render_per_page_field'),
-            'simple-events',
+            'simple-events-cpt',
             'simple_events_general'
         );
 
         add_settings_field(
             'currency_symbol',
-            __('Currency symbol', 'simple-events'),
+            __('Currency symbol', 'simple-events-cpt'),
             array($this, 'render_currency_field'),
-            'simple-events',
+            'simple-events-cpt',
             'simple_events_general'
         );
 
         add_settings_field(
             'date_format',
-            __('Date format', 'simple-events'),
+            __('Date format', 'simple-events-cpt'),
             array($this, 'render_date_format_field'),
-            'simple-events',
+            'simple-events-cpt',
             'simple_events_general'
         );
     }
@@ -127,8 +127,8 @@ class Simple_Events_Settings {
     public function add_page() {
         add_submenu_page(
             'edit.php?post_type=' . Simple_Events_Helpers::POST_TYPE,
-            __('Event Settings', 'simple-events'),
-            __('Settings', 'simple-events'),
+            __('Event Settings', 'simple-events-cpt'),
+            __('Settings', 'simple-events-cpt'),
             'manage_options',
             'simple-events-settings',
             array($this, 'render_page')
@@ -183,11 +183,11 @@ class Simple_Events_Settings {
         }
         ?>
         <div class="wrap">
-            <h1><?php esc_html_e('Event Settings', 'simple-events'); ?></h1>
+            <h1><?php esc_html_e('Event Settings', 'simple-events-cpt'); ?></h1>
             <form action="options.php" method="post">
                 <?php
                 settings_fields('simple_events');
-                do_settings_sections('simple-events');
+                do_settings_sections('simple-events-cpt');
                 submit_button();
                 ?>
             </form>
@@ -203,7 +203,7 @@ class Simple_Events_Settings {
             <?php
             printf(
                 /* translators: %s: example archive URL */
-                esc_html__('Used in event permalinks and the archive URL, e.g. %s', 'simple-events'),
+                esc_html__('Used in event permalinks and the archive URL, e.g. %s', 'simple-events-cpt'),
                 esc_html(home_url('/' . $value . '/sample-event/'))
             );
             ?>
@@ -229,7 +229,7 @@ class Simple_Events_Settings {
         $value = self::get('date_format', '');
         ?>
         <input type="text" name="<?php echo esc_attr(self::OPTION_KEY); ?>[date_format]" value="<?php echo esc_attr($value); ?>" class="regular-text" placeholder="<?php echo esc_attr(get_option('date_format')); ?>" />
-        <p class="description"><?php esc_html_e('Leave blank to use the WordPress date format from Settings → General.', 'simple-events'); ?></p>
+        <p class="description"><?php esc_html_e('Leave blank to use the WordPress date format from Settings → General.', 'simple-events-cpt'); ?></p>
         <?php
     }
 }

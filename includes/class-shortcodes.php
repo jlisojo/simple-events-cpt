@@ -28,7 +28,7 @@ class Simple_Events_Shortcodes {
             'count'       => 3,
             'title'       => '',
             'show_button' => 'true',
-            'button_text' => __('View All Events', 'simple-events'),
+            'button_text' => __('View All Events', 'simple-events-cpt'),
             'button_url'  => '',
         ), $atts, 'simple_events');
 
@@ -61,7 +61,7 @@ class Simple_Events_Shortcodes {
                     wp_reset_postdata();
                     ?>
                 <?php else : ?>
-                    <p class="se-empty"><?php esc_html_e('No upcoming events found.', 'simple-events'); ?></p>
+                    <p class="se-empty"><?php esc_html_e('No upcoming events found.', 'simple-events-cpt'); ?></p>
                 <?php endif; ?>
             </div>
 

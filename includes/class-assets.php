@@ -39,14 +39,14 @@ class Simple_Events_Assets {
      */
     public function enqueue() {
         wp_enqueue_style(
-            'simple-events',
+            'simple-events-cpt',
             SIMPLE_EVENTS_PLUGIN_URL . 'assets/css/frontend.css',
             array(),
             SIMPLE_EVENTS_VERSION
         );
 
         wp_enqueue_script(
-            'simple-events',
+            'simple-events-cpt',
             SIMPLE_EVENTS_PLUGIN_URL . 'assets/js/frontend.js',
             array(),
             SIMPLE_EVENTS_VERSION,

@@ -33,22 +33,22 @@ get_header();
                 endwhile;
                 ?>
             <?php else : ?>
-                <p class="se-empty"><?php esc_html_e('No upcoming events found. Check back soon.', 'simple-events'); ?></p>
+                <p class="se-empty"><?php esc_html_e('No upcoming events found. Check back soon.', 'simple-events-cpt'); ?></p>
             <?php endif; ?>
         </div>
 
         <?php
         the_posts_pagination(array(
             'mid_size'  => 2,
-            'prev_text' => __('← Previous', 'simple-events'),
-            'next_text' => __('Next →', 'simple-events'),
+            'prev_text' => __('← Previous', 'simple-events-cpt'),
+            'next_text' => __('Next →', 'simple-events-cpt'),
         ));
         ?>
 
         <?php if ($past_query->have_posts()) : ?>
             <section class="se-past">
                 <button class="se-past__toggle" type="button" aria-expanded="false" aria-controls="se-past-grid">
-                    <h2><?php esc_html_e('Past Events', 'simple-events'); ?></h2>
+                    <h2><?php esc_html_e('Past Events', 'simple-events-cpt'); ?></h2>
                     <span class="se-past__icon" aria-hidden="true">▼</span>
                 </button>
                 <div id="se-past-grid" class="se-grid se-past__grid" hidden>
