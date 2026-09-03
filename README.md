@@ -4,6 +4,10 @@ A lightweight WordPress plugin for publishing events. It registers an `se_event`
 
 Built as a generic, self-contained plugin suitable for any WordPress site. No page builder or third-party ticketing vendor required.
 
+**📦 Available on WordPress.org:** [WordPress Plugin Directory](https://wordpress.org/plugins/simple-events-cpt/)
+
+**🚀 Premium features:** [Simple Events Pro](https://github.com/jlisojo/simple-events-pro) (separate add-on with recurring events, calendar view, iCal export)
+
 ## Features
 
 - **Events CPT** with categories and tags, REST-enabled

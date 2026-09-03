@@ -1,0 +1,435 @@
+# Copyright (C) 2026 Simple Events CPT
+# This file is distributed under the same license as the Simple Events CPT package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Simple Events CPT 1.0.0\n"
+"Report-Msgid-Bugs-To: https://github.com/jlisojo/simple-events-cpt/issues\n"
+"POT-Creation-Date: 2026-09-03T00:00:00+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: simple-events-cpt.php:0
+msgid "Simple Events CPT"
+msgstr ""
+
+#: simple-events-cpt.php:0
+msgid "A lightweight events custom post type with date, location, and pricing fields, theme-overridable templates, Schema.org markup, and a shortcode."
+msgstr ""
+
+#: includes/class-post-type.php:0
+msgid "Events"
+msgstr ""
+
+#: includes/class-post-type.php:0
+msgid "Event"
+msgstr ""
+
+#: includes/class-post-type.php:0
+msgid "Event Archives"
+msgstr ""
+
+#: includes/class-post-type.php:0
+msgid "Event Attributes"
+msgstr ""
+
+#: includes/class-post-type.php:0
+msgid "Parent Event:"
+msgstr ""
+
+#: includes/class-post-type.php:0
+msgid "All Events"
+msgstr ""
+
+#: includes/class-post-type.php:0
+msgid "Add New Event"
+msgstr ""
+
+#: includes/class-post-type.php:0
+msgid "Add New"
+msgstr ""
+
+#: includes/class-post-type.php:0
+msgid "New Event"
+msgstr ""
+
+#: includes/class-post-type.php:0
+msgid "Edit Event"
+msgstr ""
+
+#: includes/class-post-type.php:0
+msgid "Update Event"
+msgstr ""
+
+#: includes/class-post-type.php:0
+msgid "View Event"
+msgstr ""
+
+#: includes/class-post-type.php:0
+msgid "View Events"
+msgstr ""
+
+#: includes/class-post-type.php:0
+msgid "Search Events"
+msgstr ""
+
+#: includes/class-post-type.php:0
+msgid "No events found"
+msgstr ""
+
+#: includes/class-post-type.php:0
+msgid "No events found in Trash"
+msgstr ""
+
+#: includes/class-post-type.php:0
+msgid "Event Image"
+msgstr ""
+
+#: includes/class-post-type.php:0
+msgid "Set event image"
+msgstr ""
+
+#: includes/class-post-type.php:0
+msgid "Remove event image"
+msgstr ""
+
+#: includes/class-post-type.php:0
+msgid "Use as event image"
+msgstr ""
+
+#: includes/class-post-type.php:0
+msgid "Insert into event"
+msgstr ""
+
+#: includes/class-post-type.php:0
+msgid "Uploaded to this event"
+msgstr ""
+
+#: includes/class-post-type.php:0
+msgid "Events list"
+msgstr ""
+
+#: includes/class-post-type.php:0
+msgid "Events list navigation"
+msgstr ""
+
+#: includes/class-post-type.php:0
+msgid "Filter events list"
+msgstr ""
+
+#: includes/class-post-type.php:0
+msgid "Event Categories"
+msgstr ""
+
+#: includes/class-post-type.php:0
+msgid "Event Category"
+msgstr ""
+
+#: includes/class-post-type.php:0
+msgid "Search Categories"
+msgstr ""
+
+#: includes/class-post-type.php:0
+msgid "All Categories"
+msgstr ""
+
+#: includes/class-post-type.php:0
+msgid "Parent Category"
+msgstr ""
+
+#: includes/class-post-type.php:0
+msgid "Parent Category:"
+msgstr ""
+
+#: includes/class-post-type.php:0
+msgid "Edit Category"
+msgstr ""
+
+#: includes/class-post-type.php:0
+msgid "Update Category"
+msgstr ""
+
+#: includes/class-post-type.php:0
+msgid "Add New Category"
+msgstr ""
+
+#: includes/class-post-type.php:0
+msgid "New Category Name"
+msgstr ""
+
+#: includes/class-post-type.php:0
+msgid "Categories"
+msgstr ""
+
+#: includes/class-post-type.php:0
+msgid "Event Tags"
+msgstr ""
+
+#: includes/class-post-type.php:0
+msgid "Event Tag"
+msgstr ""
+
+#: includes/class-post-type.php:0
+msgid "Search Tags"
+msgstr ""
+
+#: includes/class-post-type.php:0
+msgid "All Tags"
+msgstr ""
+
+#: includes/class-post-type.php:0
+msgid "Edit Tag"
+msgstr ""
+
+#: includes/class-post-type.php:0
+msgid "Update Tag"
+msgstr ""
+
+#: includes/class-post-type.php:0
+msgid "Add New Tag"
+msgstr ""
+
+#: includes/class-post-type.php:0
+msgid "New Tag Name"
+msgstr ""
+
+#: includes/class-post-type.php:0
+msgid "Tags"
+msgstr ""
+
+#: includes/class-meta-boxes.php:0
+msgid "Event Details"
+msgstr ""
+
+#: includes/class-meta-boxes.php:0
+msgid "Pricing Information"
+msgstr ""
+
+#: includes/class-meta-boxes.php:0
+msgid "Short description for cards"
+msgstr ""
+
+#: includes/class-meta-boxes.php:0
+msgid "Brief description for event cards (100–150 characters)"
+msgstr ""
+
+#: includes/class-meta-boxes.php:0
+msgid "Shown on archive cards and the shortcode grid."
+msgstr ""
+
+#: includes/class-meta-boxes.php:0
+msgid "Start date"
+msgstr ""
+
+#: includes/class-meta-boxes.php:0
+msgid "End date (optional)"
+msgstr ""
+
+#: includes/class-meta-boxes.php:0
+msgid "Start time"
+msgstr ""
+
+#: includes/class-meta-boxes.php:0
+msgid "End time"
+msgstr ""
+
+#: includes/class-meta-boxes.php:0
+msgid "Venue / location name"
+msgstr ""
+
+#: includes/class-meta-boxes.php:0
+msgid "Street address"
+msgstr ""
+
+#: includes/class-meta-boxes.php:0
+msgid "City"
+msgstr ""
+
+#: includes/class-meta-boxes.php:0
+msgid "State"
+msgstr ""
+
+#: includes/class-meta-boxes.php:0
+msgid "Select state"
+msgstr ""
+
+#: includes/class-meta-boxes.php:0
+msgid "ZIP code"
+msgstr ""
+
+#: includes/class-meta-boxes.php:0
+msgid "Contact phone"
+msgstr ""
+
+#: includes/class-meta-boxes.php:0
+msgid "Contact email"
+msgstr ""
+
+#: includes/class-meta-boxes.php:0
+msgid "Event website"
+msgstr ""
+
+#: includes/class-meta-boxes.php:0
+msgid "Registration / ticket URL"
+msgstr ""
+
+#: includes/class-meta-boxes.php:0
+msgid "Opens in a new tab from event cards and the single event page."
+msgstr ""
+
+#: includes/class-meta-boxes.php:0
+msgid "Age range"
+msgstr ""
+
+#: includes/class-meta-boxes.php:0
+msgid "e.g., 5–12 years"
+msgstr ""
+
+#: includes/class-meta-boxes.php:0
+msgid "Capacity / availability"
+msgstr ""
+
+#: includes/class-meta-boxes.php:0
+msgid "e.g., Limited, 50 spots"
+msgstr ""
+
+#: includes/class-meta-boxes.php:0
+msgid "This is a free event"
+msgstr ""
+
+#: includes/class-meta-boxes.php:0
+msgid "General admission"
+msgstr ""
+
+#: includes/class-meta-boxes.php:0
+msgid "Child price"
+msgstr ""
+
+#: includes/class-meta-boxes.php:0
+msgid "Adult price"
+msgstr ""
+
+#: includes/class-admin-columns.php:0
+msgid "Event Date"
+msgstr ""
+
+#: includes/class-admin-columns.php:0
+msgid "Location"
+msgstr ""
+
+#: includes/class-admin-columns.php:0
+msgid "Price"
+msgstr ""
+
+#: includes/class-admin-columns.php:0
+msgid "Status"
+msgstr ""
+
+#: includes/class-admin-columns.php:0
+msgid "FREE"
+msgstr ""
+
+#: includes/class-admin-columns.php:0
+msgid "Past"
+msgstr ""
+
+#: includes/class-admin-columns.php:0
+msgid "Today"
+msgstr ""
+
+#: includes/class-admin-columns.php:0
+msgctxt "days-until-event"
+msgid "In %d day"
+msgid_plural "In %d days"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/class-admin-columns.php:0
+msgid "Upcoming"
+msgstr ""
+
+#: templates/archive-se_event.php:0
+msgid "No upcoming events found. Check back soon."
+msgstr ""
+
+#: templates/archive-se_event.php:0
+msgid "← Previous"
+msgstr ""
+
+#: templates/archive-se_event.php:0
+msgid "Next →"
+msgstr ""
+
+#: templates/archive-se_event.php:0
+msgid "Past Events"
+msgstr ""
+
+#: templates/parts/event-card.php:0
+msgid "Free"
+msgstr ""
+
+#: templates/parts/event-card.php:0
+msgid "Learn More"
+msgstr ""
+
+#: templates/parts/event-card.php:0
+msgid "View Details"
+msgstr ""
+
+#: templates/parts/event-card.php:0
+msgid "Register"
+msgstr ""
+
+#: includes/class-shortcodes.php:0
+msgid "View All Events"
+msgstr ""
+
+#: includes/class-shortcodes.php:0
+msgid "No upcoming events found."
+msgstr ""
+
+#: includes/class-settings.php:0
+msgid "Events Settings"
+msgstr ""
+
+#: includes/class-settings.php:0
+msgid "Settings"
+msgstr ""
+
+#: includes/class-settings.php:0
+msgid "Archive Slug"
+msgstr ""
+
+#: includes/class-settings.php:0
+msgid "The URL path for the events archive. Default: events"
+msgstr ""
+
+#: includes/class-settings.php:0
+msgid "Events Per Page"
+msgstr ""
+
+#: includes/class-settings.php:0
+msgid "Number of events to display per page in the archive."
+msgstr ""
+
+#: includes/class-settings.php:0
+msgid "Currency Symbol"
+msgstr ""
+
+#: includes/class-settings.php:0
+msgid "Symbol to display before event prices."
+msgstr ""
+
+#: includes/class-settings.php:0
+msgid "Date Format"
+msgstr ""
+
+#: includes/class-settings.php:0
+msgid "Leave blank to use WordPress date format. Use PHP date() format."
+msgstr ""
+
+#: includes/class-settings.php:0
+msgid "Save Changes"
+msgstr ""
